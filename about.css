@@ -1,0 +1,94 @@
+/* Add a background color and some padding around the form*/
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 1px;
+}
+
+*, html, body {
+    margin: 10;
+    padding: 10;
+}
+/* Color the About Alpha headers and email */
+.ColorMe {
+    color:darkred;
+}
+
+header {
+    background-color: gray;
+    height: 160px;
+    line-height: 112px;
+}
+
+ul {
+    list-style: none;
+     
+}
+
+ul li {
+    display: inline-block;
+}
+
+header nav {
+    float: right;
+}
+.logo img {
+    margin-top: 0px;
+     
+}
+
+header nav ul li a {
+    padding-right: 30px;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover {
+    text-decoration: none;
+    color: darkgrey;
+}
+
+.intro {
+    position: relative; left: 40px;
+}
+.ColorMe {
+    position: relative; left: 40px;
+}
+
+p {
+    position: relative; left: 40px;
+}
+
+
+/*Service Dropdown Button*/
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+/* The container <div> - need to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+/* Change color of dropdown links on hover */
+
+/* Show the dropdown menu on hover*/
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the backgroun color of the dropdown button when the dropdown content is show */

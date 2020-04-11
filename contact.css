@@ -1,0 +1,185 @@
+ /*Style inputs with type="text", select elements and textareas*/
+ input[type=text], select, textarea {
+     width: 100%; /* Full width */
+     padding: 12px; /* Some padding */
+     border: 1px solid #ccc; /* Gray border */
+     border-radius: 4px; /* Rounded borders */
+     box-sizing: border-box; /* Make sure that padding and width stays in place */
+     margin-top: 6px; /* Add a top margin */
+     margin-bottom: 16px; /* Add a Bottom margin */
+     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+ }
+
+ /* Style the submit button with a specific background color etc */
+ input[type=submit] {
+     background-color: #4caf50;
+     color: white;
+     padding: 12px 20px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
+
+/*When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover{
+    background-color: #45a049;
+}
+
+ /* Add a background color and some padding around the form */
+ .container {
+     border-radius: 5px;
+     background-color: #f2f2f2;
+     padding: 1px;
+ }
+
+ /*the contact container */
+ .contact_container {
+     padding: 50px;
+     position: absolute; left: 20px; right: 500px;
+ }
+
+ *, html, body
+ {
+     margin: 0;
+     padding: 0;
+ }
+
+ header
+ {
+     background-color: gray;
+     height: 160px;
+     line-height: 112px;
+
+ }
+
+ ul{
+     list-style: none;
+ }
+ ul li
+ {
+     display: inline-block;
+ }
+
+ header nav{
+     float: right;
+ }
+ .logo img
+ {
+     margin-top: 0px;
+ }
+header nav ul li a 
+{
+    padding-right: 30px;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+
+}
+
+header nav ul li a:hover 
+{
+    text-decoration: none;
+    color: darkgrey;
+}
+/*first slider image*/
+.img1
+{
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(..//images/01.jpg);
+    background-size: 100% 100%;
+}
+.slider, .slider ul, .slider ul li
+{
+    height: 700px;
+    width: 100%;
+    color: white;
+    text-align: center;
+}
+
+.slider h2{
+    font-weight: bold;
+    margin-top: 220px;
+}
+
+.slider span 
+{
+    color: gray;
+}
+.slider a
+{
+    padding: 10px 50px;
+    margin: right;
+     
+}
+
+.slider a.btn-half
+{
+    background-color: deepskyblue;
+    color: white;
+    transition: 0.5s ease-in;
+    
+}
+
+.slider a.btn-half:hover {
+    background-color: #45a049;
+}
+
+.slider a.btn-full
+{
+    background-color: darkgray;
+    color: white;
+    transition: 0.5s ease-in;
+}
+
+.slider a.btn-full:hover
+{
+    background-color: #45a049;
+    
+}
+
+/*second slider image*/
+.img2 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/ai-2.jpeg);
+    background-size: 100% 100%;
+}
+
+/*third slider image*/
+.img3 {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../images/img3.jpg);
+    background-size: 100% 100%;
+}
+
+.slider i{
+    font-size: 50px;
+    margin-right: 20px;
+}
+
+/* Services Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+ /* The container <div> - needed to position the dropdown content */
+ .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+ /* Dropdown Content (Hidden by Default) */
+ .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 20px 30px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Change color of dropdown links on hover */
+
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
